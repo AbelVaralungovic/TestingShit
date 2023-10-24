@@ -1,0 +1,19 @@
+body {
+    --color :  rgb(228, 177, 177);
+
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color);
+    flex-direction: column;
+}
+
+
+#model {
+    margin: 20px;
+    padding: 20px;
+    background-color: var(--color);
+    height: 500px;
+    width: 500px;
+}

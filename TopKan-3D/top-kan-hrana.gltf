@@ -1,0 +1,240 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - 79ba1cd447072f6a09e18761bc905a344fe32f59",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 47063,
+            "type": "VEC3",
+            "max": [
+                1.271809458732605,
+                4.24247932434082,
+                0.6736693978309631
+            ],
+            "min": [
+                -1.271541714668274,
+                -0.027240514755249025,
+                -0.6742486953735352
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 47063,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 47063,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 275328,
+            "type": "SCALAR",
+            "max": [
+                47062.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 564756,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 564756,
+            "byteLength": 564756,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1129512,
+            "byteLength": 376504,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1506016,
+            "byteLength": 1101312,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 2607328,
+            "uri": "top-kan-hrana_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.0003089622769039124,
+                "yfov": 0.6024156808853149,
+                "zfar": 16.9929256439209,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "images": [
+        {
+            "name": "composited_baseColor_opacity",
+            "uri": "top-kan-hrana_images/composited_baseColor_opacity.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "composited_roughness_composited_metallic",
+            "uri": "top-kan-hrana_images/composited_roughness_composited_metallic.png",
+            "mimeType": "image/png"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicRoughnessTexture": {
+                    "index": 1
+                }
+            },
+            "alphaMode": "MASK",
+            "name": "Pack",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Object_4",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                0.6709033250808716,
+                0.327240526676178,
+                0.5162269473075867
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "children": [
+                2
+            ],
+            "translation": [
+                -0.00040145873208530247,
+                0.08172154426574707,
+                0.0008689117385074496
+            ],
+            "scale": [
+                3.0,
+                3.0,
+                3.0
+            ],
+            "name": "scene"
+        },
+        {
+            "children": [
+                3
+            ],
+            "rotation": [
+                -0.7071067690849304,
+                0.0,
+                0.0,
+                0.7071067690849304
+            ],
+            "name": "Sketchfab_model"
+        },
+        {
+            "children": [
+                4
+            ],
+            "name": "root"
+        },
+        {
+            "children": [
+                5
+            ],
+            "rotation": [
+                0.7071067690849304,
+                0.0,
+                0.0,
+                0.7071067690849304
+            ],
+            "name": "GLTF_SceneRootNode"
+        },
+        {
+            "children": [
+                6
+            ],
+            "name": "Pack_0"
+        },
+        {
+            "mesh": 0,
+            "name": "Object_4"
+        }
+    ],
+    "samplers": [
+        {},
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "composited_baseColor_opacity",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "composited_roughness_composited_metallic",
+            "sampler": 1,
+            "source": 1
+        }
+    ],
+    "scene": 0
+}
