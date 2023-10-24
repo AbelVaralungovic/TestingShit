@@ -8,23 +8,32 @@ body {
     background-color: var(--color);
     flex-direction: column;
 
-    background-image: url("./forestry-home-1.jpg");
+    background-image: url("./Group_2.png");
     background-repeat:no-repeat;
     background-size: cover;
 }
 
 
 #model {
-    margin-top: 100px;
-    padding: 20px;
+    margin-top: 315px;
+    
     /*
 * Created with https://www.css-gradient.com
 * Gradient link: https://www.css-gradient.com/?c1=6ae5a7&c2=8896e300&gt=r&gd=dcc
 */
-    background: rgba(106, 229, 167, 1.0);
-    background: radial-gradient( 300px at center, rgb(245, 234, 76), rgba(136, 150, 227, 0.0));
+
     
-    height: 500px;
-    width: 500px;
+    height: 375px;
+    width: 375px;
 
 }
+
+h1 {
+    margin-top: 100px;
+    color: antiquewhite;
+    font-size: 100px;
+}
+
+model-viewer {
+    --progress-bar-color: transparent;
+  }
